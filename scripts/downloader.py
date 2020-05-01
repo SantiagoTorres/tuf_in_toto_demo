@@ -63,4 +63,4 @@ verifylib.in_toto_verify(layout, layout_keys)
 
 # Since it didn't, we can probably copy our target to the main directory
 print("Successfully verified with TUF and in-toto!")
-shutil.copyfile('in_toto_md/demo-project.tar.gz', 'demo-project.tar.gz')
+shutil.copyfile('demo-project.tar.gz', '../demo-project.tar.gz')
